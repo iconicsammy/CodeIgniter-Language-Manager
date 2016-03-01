@@ -1,0 +1,83 @@
+@charset "utf-8";
+/* CSS Document */
+/* mylang.css
+MIT License. This file accompanies the mylang language plugin for codeigniter. You have complete control over it. If you make changes that would make the plugin better in anyway, please fork it up.
+
+Author: K. Sium (kmsium@gmail.com)*/
+
+.mylanghidden {visibility: hidden; display: none; }
+.mylangshow {visibility: visible; display: block; }
+/* Top action buttons */
+#mylangactionbuttons {
+width:100%;
+}
+#mylangactionbuttons input[type="text"] {height:40px; padding:10px 5px; border:1px solid #000066; border-radius:5px; width:250px;}
+#mylangactionbuttons input[type="button"] {height:40px; padding:10px 5px; border:1px solid #000066;; border-radius:5px; background-color:#000066; color:#FFFFFF;}
+#mylangstatus {background-color:#99FF33; color:#0000CC; min-height:40px; padding:5px; border:1px solid #99ff33; border-radius:3px; font-weight:bold;}
+#languages,#modules {height:42px; padding:3px; font-weight:bold; width:200px;}
+
+table#mlblock {
+		margin:10px 1px;
+		font-size:11px;
+		color:#333333;
+		border-width: 1px;
+		border-color: #3A3A3A;
+		border-collapse: collapse;
+		width:100%;
+		
+	}
+	table#mlblock input[type='text'],textarea {
+	padding:5px 10px; 
+	border:1px solid #99FFFF;
+	width:90%;
+	
+	}
+	table#mlblock textarea {
+	height:40px;
+	
+	}
+	
+	table#mlblock th {
+		
+		padding: 8px;
+		border-style: solid;
+		border-color: #3A3A3A;
+		background-color: #B3B3B3;
+	}
+	table#mlblock thead tr th:first-child {
+   width:20%;
+      }
+	  table#mlblock thead tr th:last-child {
+   width:10%;
+      }
+	table#mlblock td {
+		
+		padding: 8px;
+		
+		background-color: #ffffff;
+	}
+	
+	table#mlblock #mylangsavemodule {height:45px; padding:10px; border:1px solid #ffffff; border-radius:6px; background-color:#0066FF; color:#ffffff; font-weight:bold;}
+	
+	#mylangaddline {
+  background: url("append.png") no-repeat scroll 0 0 ;
+  height: 32px;
+  width: 32px;
+   }
+   
+   .originalline {
+   display:inline-block;
+  background: url("reset.png") no-repeat scroll 0 0 ;
+  height: 32px;
+  width: 32px;
+   }
+   .deleteline {
+   display:inline-block;
+  background: url("delete.png") no-repeat scroll 0 0 ;
+  height: 32px;
+  width: 32px;
+   }
+
+
+.mylangkey_add {border:1px solid #3300FF;}
+.mylangkey_val {border:1px solid #FF0000;}
