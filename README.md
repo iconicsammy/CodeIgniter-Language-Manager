@@ -6,7 +6,7 @@ This is made public from a recent application written in CI. It was part of the 
 
 Requires: JQUERY
 
-To call it, place Mylang to your controller directory ; mylangv to your views folder, mylang_lang to your language folder in english and the CSS and png files to your desired folders.
+To call it, place Mylang to your controller directory ; mylangv to your views folder, mylang_lang to your language folder in english and the CSS and png files to your desired folders. Place the CSS in header of your application.
 
 Call it like anyother controller. In case you use it in admin area, like my application, you have to hack the mylang view file and edit the ajax calls which are in the form of:
 
